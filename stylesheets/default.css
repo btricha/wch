@@ -1,0 +1,134 @@
+/* andreas07 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com.
+ * Free to use for any purpose as long as the proper credits are given for the original design work.
+ * Version: 1.1, November 28, 2005
+ */
+
+/**************** Page and tag styles ****************/
+
+a {
+  text-decoration:none;
+}
+
+a img {
+  border:none;
+}
+
+a img:hover {
+  border:none;
+}
+
+html, body {
+  height:100%;
+}
+
+body {
+  margin:0;
+  padding:0;
+  font:76% Verdana,Tahoma,sans-serif;
+}
+
+ul
+{list-style:circle; margin:15px 0 20px 0; font-size:0.9em;}
+
+li
+{margin:0 0 8px 25px;}
+
+a
+{color:#d85d5d; font-weight:bold; text-decoration:none;}
+
+a:hover
+{color:#505050; text-decoration:underline;}
+
+/**************** Sidebar area styles ****************/
+
+#sidebar
+{position:absolute; top:0; left:0; width:300px; height:100%; overflow:auto; background:#e0e0e0 url(images/sidebarbg.gif) top right repeat-y; text-align:right;}
+
+body > #sidebar
+{position:fixed;}
+
+#sidebar img
+{float:left; margin:5px 15px 15px 5px; padding:1px; background:#ffffff; border:1px solid #d0d0d0;}
+
+#sidebar h1
+{margin:20px 18px 0 5px; color:#d85d5d; font-size:1.6em; letter-spacing:-2px; text-align:right;}
+
+#sidebar h2, #sidebar h3
+{margin:0 20px 18px 5px; color:#808080; font-size:1.1em; font-weight:bold; letter-spacing:-1px; text-align:right;}
+
+#sidebar h3
+{margin:20px 18px 4px 5px; color:#606060;}
+
+#sidebar  p
+{margin:0 20px 18px 5px; color:#606060; font-size:0.8em;}
+
+#sidebar a
+{color:#808080}
+
+#sidebar ul
+{margin-right: 20px; margin-left: 5px; list-style-type: none;}
+
+#sidebar li
+{margin: 0px; padding-left: 5px;}
+
+/**************** Navigation menu styles ****************/
+
+#menu ul
+{list-style-type: none; margin: 0px; padding: 0px; font-size: 1.0em;}
+
+#menu li {
+  margin:0px 0px 0px 80px;
+  padding:0px;
+}
+
+#menu a, #menu span
+{display:block; width:200px; padding:5px 18px 5px 0px; color:#606060; background-color:#e0e0e0; font-size:1.8em; font-weight:normal; text-decoration:none; letter-spacing:-2px;}
+
+#menu a:hover, #menu span:hover
+{color:#303030; background-color:#f0f0f0;}
+
+#menu li.webgen-menu-item-selected a, #menu li.webgen-menu-item-selected span
+{padding:5px 18px 5px 0; background:#fafafa; border-left:2px solid #c0c0c0; border-top:2px solid #c0c0c0; border-bottom:2px solid #c0c0c0;}
+
+#menu li.webgen-menu-item-selected a:hover, #menu li.webgen-menu-item-selected span:hover
+{color:#505050; background:#fafafa;}
+
+/**************** Content area styles ****************/
+
+#main {
+  min-height:100%;
+  margin-top:-3em;
+  margin-left:300px;
+  background:#fafafa;
+}
+
+#content {
+  padding:3em 1em 5em 1em;
+  text-align:center;
+}
+
+#content table img {
+  margin-top:30px;
+}
+
+#content img.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#content p {
+  line-height:1.5em;
+  font-size:1.4em;
+}
+
+#content h2
+{clear:both; margin:30px 0 10px 0; font-weight:normal; font-size: 2em; letter-spacing:-2px;}
+
+#footer {
+  margin-left:300px;
+  height:3em;
+  background-color:#e0e0e0;
+  border-top:2px solid #c0c0c0;
+  text-align:center;
+}
